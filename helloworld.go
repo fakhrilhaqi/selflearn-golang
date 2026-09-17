@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+import "rsc.io/quote"
+
 func main() {
 	fmt.Println("Hello world")
 	fmt.Println("wow")
@@ -53,4 +55,6 @@ func main() {
 	fmt.Println("Number Float: ", numberFloat)
 
 	fmt.Println(string("hae antek aseng"[1]))
+
+	fmt.Println(quote.Go())
 }
